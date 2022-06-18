@@ -1,0 +1,14 @@
+{
+  "name": "textModeration",
+  "version": "1.0.0",
+  "description": "文本内容安全接口",
+  "main": "index.js",
+  "scripts": {},
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cloudbase/node-sdk": "latest",
+    "crypto-js": "^4.1.1",
+    "tencentcloud-sdk-nodejs": "^4.0.315"
+  }
+}

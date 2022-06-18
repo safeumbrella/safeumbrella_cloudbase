@@ -1,0 +1,42 @@
+{
+  "version": "2.0",
+  "envId": "lowcode-8gm18ro0fce002c9",
+  "$schema": "https://framework-1258016615.tcloudbaseapp.com/schema/latest.json",
+  "functionRoot": "./functions",
+  "functions": [
+    {
+      "name": "tbpSafeUmbrella",
+      "timeout": 5,
+      "envVariables": {},
+      "runtime": "Nodejs12.16",
+      "memorySize": 256,
+      "handler": "index.main"
+    },
+    {
+      "name": "nlpSentimentAnalysis",
+      "timeout": 5,
+      "envVariables": {},
+      "runtime": "Nodejs12.16",
+      "memorySize": 256,
+      "handler": "index.main"
+    },
+    {
+      "name": "textModeration",
+      "timeout": 5,
+      "envVariables": {},
+      "runtime": "Nodejs12.16",
+      "memorySize": 256,
+      "handler": "index.main"
+    }
+  ],
+  "framework": {
+    "name": "node-starter",
+    "plugins": {
+      "function": {
+        "use": "@cloudbase/framework-plugin-function",
+        "inputs": {}
+      }
+    }
+  },
+  "region": "ap-shanghai"
+}

@@ -1,0 +1,15 @@
+{
+  "name": "tbpSafeUmbrella",
+  "version": "1.0.0",
+  "description": "安全伞机器人回复",
+  "main": "index.js",
+  "scripts": {},
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cloudbase/node-sdk": "latest",
+    "tencentcloud-sdk-nodejs": "^4.0.315"
+
+
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "safeumbrella_cloudbase",
+  "version": "1.0.0",
+  "description": "safeumbrella 智能安全伞平台",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "safeumbrella",
+  "license": "ISC"
+}
